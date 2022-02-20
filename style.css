@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: antiquewhite;
+}
+a{
+    color: black;
+}
+
+/* Header */
+
+.head-sec1{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+/* head sec1 orderly spaced using above */
+
+.sec1-inner{
+    display: flex;
+}
+.head-sec1 img{
+    height: 20px;
+    margin-top: 6px;
+}
+.head-sec1 span{
+    display: block;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+/* for align icon and letter center */
+
+/* Head sec2 and body for margin from main body */
+.body-center{
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+.head-sec2{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    margin-top: 15px;
+}
+.head-sec2-top{
+    background-color: brown;
+    height: 35px;
+    font-weight: 100;
+    text-align: end;
+    font-size: 13px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    margin-right: 10px;
+}
+.head-sec2-top a{
+    margin-right: 20px;
+    line-height: 35px;
+}
+/*  Header sec2 top finished */
+
