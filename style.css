@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif;
 }
 body{
     /* background-color: antiquewhite; */
@@ -48,11 +49,13 @@ a{
     margin: auto;
 }
 .head-sec2{
-    /* background-color: aqua; */
+
+    border-bottom: 1px solid #E9ECEF;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .logo{
     height: 60px;
     margin-top: 15px;
@@ -76,12 +79,10 @@ a{
     width: 150px;
     height: 30px;
     border: none;
-    /* position: relative; */
     background: url("images/search.png") no-repeat left;
 }
 .head-sec2-bottom{
     width: 1000px;
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,3 +109,283 @@ a{
 
 /* Header Section2 bottom finished */
 
+
+.top{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.bottom{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.top a{
+    margin-right: 12px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+.bold{
+    
+    font-size: 12px;
+    font-weight: bold;
+}
+.u-line{
+    text-decoration: underline;
+}
+/* back finished */
+
+.bottom-left a{
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -3px;
+}
+.bottom-left span{
+    font-size: 12px;
+}
+/* left (outlet)finished */
+
+.bottom{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.bottom-right button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    font-family: 'Courier New', Courier,monospace;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border: none;
+    border: 1px solid black;
+}
+
+/* Product Section */
+
+.row{
+    display: flex;
+    overflow: hidden;
+}
+.card {
+    position:relative;
+    margin-right: 2px;
+  }
+  .card:hover{
+    border: 1px solid black;
+  }
+  
+  .p-detail {
+    padding: 2px 16px;
+    font-family: sans-serif
+  }
+  .p-head{
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .p-body{
+      color: #717579;
+      font-size: 11px;
+      letter-spacing: 1px;
+  }
+  .p-percent{
+      position: absolute;
+      font-weight:bold;
+      top: 265px;
+      left: 7px;
+      background-color: white;
+  }
+  .p-offer{
+      font-size: 14px;
+    position: absolute;
+    top: 290px;
+    left: 7px;
+    background-color: white;
+  }
+  .p-cross{
+      text-decoration: line-through;
+      margin-right: 5px;
+  }
+  .p-red{
+      color: red;
+  }
+  .p-wish{
+    position: absolute;
+    top: 10px;
+    left: 270px;
+  }
+  .row{
+      margin-top: 50px;
+  }
+
+  /* pager section */
+.prod-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.pager button{
+    background-color: transparent;
+    width: 70px;
+    height: 50px;
+    border: 1px solid rgb(233,236,239);
+}
+select{
+    border:none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+.pager{
+    margin-left: 550px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.nxt{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* description */
+
+.description{
+    margin-bottom: 50px;
+}
+.description p{
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.description .p{
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0;
+    font-weight:lighter;
+}
+/* description end */
+
+.rows{
+   display: flex;
+   justify-content: space-evenly;
+}
+.column{
+    width: 100%;
+    margin-left: 1px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 32px;  
+}
+.category{
+    margin-left: 20px;
+}
+.p-head p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* cloth shoes category finished */
+
+.yellow{
+    margin-top: 80px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.yellow button{
+    width: 130px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.yellow button{
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+/* yellow  finished*/
+
+.second-inner{
+    margin-left: 33px;
+}
+.second-list{
+    margin-left: 20px;
+}
+.second-inner{
+    display: flex; 
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 50px;
+}
+.second-list p{
+    line-height: 25px;
+}
+.secondhead{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.second-list{
+    margin-right: 80px;
+}
+
+/* second list finished */
+
+
+footer{
+    width: 100%;
+    height: 110px;
+    background-color: #363738;
+    color: #9E9EA1;
+}
+
+.foot-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-left img{
+    width: 15px;
+}
+.foot-left{
+   width: 100%;
+   height: 110px;
+}
+.about{
+    margin-top: 20px;
+}
+.foot-right{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 12px;
+}
+.foot-right span{
+    margin-right: 10px;
+}
+.most-inner{
+    margin: 30px 0 0 150px;
+    font-size: 12px;
+}
